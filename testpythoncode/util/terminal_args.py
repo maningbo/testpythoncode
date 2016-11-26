@@ -5,11 +5,9 @@ Created on 2016年11月26日 下午3:25:38
 @author: maningbo
 '''
 
-#coding:utf-8
 #获取命令行参数
 #参考链接：http://blog.csdn.net/intel80586/article/details/8545572
 import sys
-import datetime
 import time
 
 print "脚本名：", sys.argv[0]
