@@ -14,6 +14,7 @@ if __name__=='__main__':
     print str(datetime.datetime.now())[0:19] #当前时间
     print datetime.datetime.now() #精确到微秒的当前时间
     print datetime.datetime.now().microsecond #当前时间的微秒数
+    print int(time.time()) #当前时间的UNIX时间戳
     dateStr='2016-03-24'
     timestamp = int(time.mktime(time.strptime(str(dateStr), "%Y-%m-%d")))#字符串转时间戳
     print dateStr
